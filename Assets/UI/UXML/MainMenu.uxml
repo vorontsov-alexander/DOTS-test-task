@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/Menu.uss?fileID=7433441132597879392&amp;guid=8ab08023605ae4f4eaf6e79a77d711e4&amp;type=3#Menu" />
+    <ui:VisualElement class="main-menu">
+        <ui:Label text="DOTS" class="title" style="-unity-text-align: upper-center; font-size: 45px; -unity-text-outline-color: rgb(255, 255, 255); color: rgb(255, 255, 255);" />
+        <ui:Button name="startButton" text="Начать игру" class="menu-button" style="position: relative;" />
+        <ui:Button name="exitButton" text="Выйти" class="menu-button" />
+    </ui:VisualElement>
+</ui:UXML>
